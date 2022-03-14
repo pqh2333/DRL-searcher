@@ -9,16 +9,19 @@ DRL_Searcher employs distributional reinforcement learning (DRL) to solve the mu
 
 
 ## Structures:
-The core code of DRL_Searcher is divided into two parts: Training process and Execution process.
+The core code of DRL_Searcher can be divided into two parts: Training process and Execution process.
 
 ### Training process:
+- Simulate and generate multiple sets of robot and target trajectories as the training set.
 
 ### Execution process:
-
-
+- Using robot position and probabilistic target belief (PTB) as input;
+- Combining with recency reward to implement implicit cooperation;
+- The robot execute action with the biggest returns based on MuRES objective.
 
 ## Parameters:
-
+In this part, we briefly introduce some important parameters of DRL_Searcher, and default values.
 
 
 ## Examples:
+A few examples involved to let you know more about the use process of DRL_Searcher.
