@@ -11,6 +11,34 @@ DRL_Searcher employs distributional reinforcement learning (DRL) to solve the mu
 ## Structures:
 The core code of DRL_Searcher can be divided into two parts: Training process and Execution process.
 
+DRL_Searcher
+├── Core
+│   ├── DRL_Searcher_Trainer.py
+│   ├── DRL_Searcher_Executor.py
+├── Inputs
+│   ├── Environment.py
+│   ├── Target_Motion.py
+├── Examples
+│   ├── Example1.py
+│   ├── Simulation1.1.py
+│   ├── Simulation1.2.py
+│   ├── Simulation2.1.py
+│   └── Simulation2.2.py
+├── Mid_Outputs
+│   ├── HOUSE_MR1
+│   ├── HOUSE_MR2
+│   ├── MUSEUM_MR1
+│   ├── MUSEUM_MR2
+│   ├── OFFICE_MR1
+│   └── OFFICE_MR2
+├── Outputs
+│   ├── HOUSE_MR1
+│   ├── HOUSE_MR2
+│   ├── MUSEUM_MR1
+│   ├── MUSEUM_MR2
+│   ├── OFFICE_MR1
+│   └── OFFICE_MR2
+
 ### Training process:
 - Simulate and generate multiple sets of robot and target trajectories as the training set.
 
