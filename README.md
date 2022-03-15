@@ -53,6 +53,12 @@ The `Examples` file details the calling method of DRL_Searcher and the related s
 
 ## Parameters:
 In this part, we briefly introduce some important parameters of DRL_Searcher, and default values.
+Environment_num: 
+alpha:  
+epsilon:  
+Emax:
+Cmax:
+M, V_min, V_max:
 
 
 ## Examples:
