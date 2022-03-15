@@ -39,6 +39,10 @@ DRL_Searcher
 │   ├── OFFICE_MR1  
 │   └── OFFICE_MR2  
 
+The `Core` file is the core code of DRL_Searcher. Z_matrix is trained by calling `DRL_Searcher_Trainer.py`, and search is performed by calling `DRL_Searcher_Executor.py`.
+The `Inputs` file stores the inputs to the DRL_Searcher, including the environment and target movement mode.
+The `Mid_Outputs` file and the `Outputs` file are used to store the trained Z_matrix of DRL_Searcher and the simulated search results, respectively.
+The `Examples` file details the calling method of DRL_Searcher and the related simulations in the corresponding paper.
 ### Training process:
 - Simulate and generate multiple sets of robot and target trajectories as the training set.
 
