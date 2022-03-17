@@ -43,6 +43,7 @@ The `Core` file is the core code of DRL_Searcher. Z_matrix is trained by calling
 The `Inputs` file stores the inputs to the DRL_Searcher, including the environment and target movement mode.
 The `Mid_Outputs` file and the `Outputs` file are used to store the trained Z_matrix of DRL_Searcher and the simulated search results, respectively.
 The `Examples` file details the calling method of DRL_Searcher and the related simulations in the corresponding paper.
+For the specific training and execution process, please refer to `example1.py`.
 ### Training process:
 - Simulate and generate multiple sets of robot and target trajectories as the training set.
 
@@ -53,11 +54,9 @@ The `Examples` file details the calling method of DRL_Searcher and the related s
 
 ## Parameters:
 In this part, we briefly introduce some important parameters of DRL_Searcher, and default values.
-Environment_num: 
-alpha:  
-epsilon:  
-Emax:
-Cmax:
+alpha: learning rate of DRL, default is 0.01.  
+epsilon: exploration probability in training step, default is 0.05.  
+Emax: maximum number of training episodes, default is 40000.
 M, V_min, V_max:
 
 
